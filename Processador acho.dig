@@ -11,7 +11,7 @@
           <shapeType>SIMPLE</shapeType>
         </entry>
       </elementAttributes>
-      <pos x="500" y="120"/>
+      <pos x="240" y="-120"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
@@ -105,7 +105,7 @@
     <visualElement>
       <elementName>ULA16.dig</elementName>
       <elementAttributes/>
-      <pos x="1120" y="140"/>
+      <pos x="1060" y="300"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
