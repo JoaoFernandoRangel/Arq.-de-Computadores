@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes>
+    <entry>
+      <string>Label</string>
+      <string>UC</string>
+    </entry>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>10</int>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>4 primeiros bits da linha de comando</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Oper</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Op_ULA</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>2</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Reg_write</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>MUX_PC</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>MUX_REGA</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>MUX_REG2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>MUX_ULA</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>4</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,1,2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="480" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>ORIG_PC</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="700"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="500" y="320"/>
+      <p2 x="940" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="320"/>
+      <p2 x="1040" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="400"/>
+      <p2 x="1040" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="480"/>
+      <p2 x="1040" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="560"/>
+      <p2 x="1040" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="240"/>
+      <p2 x="1040" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="640"/>
+      <p2 x="1000" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="640"/>
+      <p2 x="1040" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="340"/>
+      <p2 x="480" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="340"/>
+      <p2 x="900" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="300"/>
+      <p2 x="880" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="700"/>
+      <p2 x="1040" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="240"/>
+      <p2 x="880" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="340"/>
+      <p2 x="900" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="640"/>
+      <p2 x="1000" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="320"/>
+      <p2 x="940" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="400"/>
+      <p2 x="940" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="480"/>
+      <p2 x="940" y="560"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>

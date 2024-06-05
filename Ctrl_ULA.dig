@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
   <version>2</version>
-  <attributes/>
+  <attributes>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>6</int>
+    </entry>
+  </attributes>
   <visualElements>
     <visualElement>
       <elementName>Text</elementName>
@@ -52,7 +63,7 @@ Op_1 = ~C0*~C1*~F0*F1*F2 + ~C0*~C1*F0*~F2 + ~C0*~C1*F0*~F1</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Cont2ULA</string>
+          <string>Op_ULA</string>
         </entry>
         <entry>
           <string>Bits</string>
