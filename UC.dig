@@ -128,6 +128,16 @@
       </elementAttributes>
       <pos x="1040" y="700"/>
     </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Rol_ctrl</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="760"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -171,6 +181,10 @@
       <p2 x="900" y="340"/>
     </wire>
     <wire>
+      <p1 x="1000" y="760"/>
+      <p2 x="1040" y="760"/>
+    </wire>
+    <wire>
       <p1 x="500" y="300"/>
       <p2 x="880" y="300"/>
     </wire>
@@ -189,6 +203,10 @@
     <wire>
       <p1 x="1000" y="640"/>
       <p2 x="1000" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="700"/>
+      <p2 x="1000" y="760"/>
     </wire>
     <wire>
       <p1 x="940" y="320"/>
